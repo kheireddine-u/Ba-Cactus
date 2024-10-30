@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/fa/css/all.min.css">
+    <title>Plant & Cactus Shop</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 fixed-top">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold fs-3" href="#">
+          Ba
+          <span style="color: #80ed99;">Cactus</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link mx-2 dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Plants</a></li>
+                <li><a class="dropdown-item" href="#">Pots</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active"
+          style="background-image: url('/images/land3.jpg');"
+        >
+          <div class="shape-overlay"></div>
+          <div class="carousel-caption">
+            <h5>Explore the World of Succulents</h5>
+            <p>
+              Bring home low-maintenance beauty with our wide range of
+              succulents and cacti.
+            </p>
+          </div>
+        </div>
+        <div
+          class="carousel-item"
+          style="background-image: url('/images/land4.jpg');"
+        >
+          <div class="shape-overlay"></div>
+          <div class="carousel-caption">
+            <h5>Nature’s Air Purifiers</h5>
+            <p>
+              Discover plants that cleanse the air and add a touch of green to
+              your space.
+            </p>
+          </div>
+        </div>
+        <div
+          class="carousel-item"
+          style="background-image: url('/images/land1.jpg');"
+        >
+          <div class="shape-overlay"></div>
+          <div class="carousel-caption">
+            <h5>Unique Pots for Unique Plants</h5>
+            <p>
+              Shop our exclusive collection of pots that perfectly complement
+              your plants.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="products" class="products-section">
+      <div class="container py-5">
+        <h2 class="section-title text-center">Our Products</h2>
+        <p class="section-description text-center">
+          Discover our wide range of plants and cacti, carefully selected to
+          bring a touch of nature to your home or garden.
+        </p>
+        <div class="row mt-5">
+          <!-- Product Card 1 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card product-card">
+              <img src="/images/fl1.jpg" class="card-img-top" alt="Product 1" />
+              <div class="card-body">
+                <h5 class="card-title">Echeveria</h5>
+                <p class="card-text">
+                  A beautiful succulent with rosettes of pastel lavender leaves
+                  that can blush pink in bright light.
+                </p>
+                <p class="card-price fw-bold">700 DA</p>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 2 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card product-card">
+              <img src="/images/fl2.jpg" class="card-img-top" alt="Product 2" />
+              <div class="card-body">
+                <h5 class="card-title">Echinopsis Cactus</h5>
+                <p class="card-text">
+                  ribbed surfaces and colorful blooms in spring. It thrives in
+                  bright.
+                </p>
+                <p class="card-price fw-bold">1500 DA</p>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 3 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card product-card">
+              <img src="/images/fl3.jpg" class="card-img-top" alt="Product 3" />
+              <div class="card-body">
+                <h5 class="card-title">Saguaro Cactus</h5>
+                <p class="card-text">
+                  An iconic tall cactus with upward-reaching arms and vibrant
+                  green skin. It prefers full sun and dry.
+                </p>
+                <p class="card-price fw-bold">1200 DA</p>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 4 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card product-card">
+              <img src="/images/fl4.jpg" class="card-img-top" alt="Product 4" />
+              <div class="card-body">
+                <h5 class="card-title">Aloe Vera</h5>
+                <p class="card-text">
+                  A popular succulent known for its thick, fleshy leaves and
+                  soothing gel. Easy to care for.
+                </p>
+                <p class="card-price fw-bold">900 DA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="jumbotron jumbotron-fluid text-white text-center py-5 position-relative"
+    >
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="container position-relative z-index-1">
+        <h1 class="display-4">Join Our Green Community</h1>
+        <p class="lead">
+          Sign up to get exclusive offers, tips, and the latest news on our
+          products.
+        </p>
+        <hr class="my-4" />
+        <p>
+          Stay updated with the best ways to care for your plants and receive
+          notifications on new arrivals!
+        </p>
+        <a class="btn btn-light btn-lg" href="#" role="button">Sign Up Now</a>
+      </div>
+    </div>
+
+    <section id="contact" class="contact-section bg-light py-5">
+      <div class="container">
+        <h2 class="section-title text-center">Contact</h2>
+        <p class="section-description text-center mb-5">
+          find out us here
+        </p>
+        <div class="row mt-5 ">
+          <div class="col-md-6 col-sm-12">
+            <h5>
+              <i class="fas fa-map-marker-alt" style="color: #80ed99; margin-right: 20px; font-size: x-large;"></i>
+              Address
+            </h5>
+            <p class="mb-4">La Cité , El Amra , Ain Defla</p>
+            <h5>
+              <i class="fas fa-phone" style="color: #80ed99; margin-right: 20px; font-size: x-large;"></i>
+              Phone
+            </h5>
+            <p class="mb-4">(213) 795 71 77 84</p>
+            <h5>
+              <i class="fas fa-envelope" style="color: #80ed99; margin-right: 20px; font-size: x-large;"></i>
+              Email
+            </h5>
+            <p class="mb-4"><a href="mailto:info@plantshop.com">info@bacactus.com</a></p>
+            <h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h5 class="mb-3">Follow Us</h5>
+            <div class="social-media-list">
+              <div class="social-item">
+                <h6>Facebook <a href="https://www.facebook.com/profile.php?id=100075903947310"><i class="fab fa-facebook" style="color: #3b5998; font-size: x-large; cursor: pointer; margin-left: 10px;"></i></a></h6>
+              </div>
+              <div class="social-item">
+                <h6>Twitter <i class="fab fa-twitter" style="color: #1da1f2; font-size: x-large; cursor: pointer; margin-left: 10px;"></i></h6>
+              </div>
+              <div class="social-item">
+                <h6>Instagram <i class="fab fa-instagram" style="color: #e1306c; font-size: x-large; cursor: pointer; margin-left: 10px;"></i></h6>
+              </div>
+              <div class="social-item">
+                <h6>Pinterest <i class="fab fa-pinterest" style="color: #bd081c; font-size: x-large; cursor: pointer; margin-left: 10px;"></i></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p class="mb-0">
+          <a href="/user-rights" class="text-white">User Rights</a>
+          | © 2024 Ba
+          <span style="color: #80ed99;">Cactus</span>
+          . All rights reserved.
+        </p>
+      </div>
+    </footer>
+         <script src="./js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
